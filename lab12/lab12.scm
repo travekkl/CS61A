@@ -1,0 +1,7 @@
+(define (partial-sums stream)
+  (define (helper acc stream)
+          (if (null? stream)
+              ()
+              (cons-stream (+ acc (car stream)) (helper (+ acc (car stream)) (cdr-stream stream)))))
+  (helper 0 stream)
+)

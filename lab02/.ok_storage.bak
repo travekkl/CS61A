@@ -1,0 +1,5 @@
+'Lambda the Free-correct', (0, 70)
+'lambda_curry2-correct', (512, 70)
+'count_cond-correct', (1024, 70)
+'composite_identity-correct', (1536, 70)
+'cycle-correct', (2048, 70)
